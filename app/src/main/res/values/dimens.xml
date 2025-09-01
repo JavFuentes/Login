@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Márgenes -->
+    <dimen name="margin_extra_small">20dp</dimen>
+    <dimen name="margin_small">30dp</dimen>
+    <dimen name="margin_medium">40dp</dimen>
+    <dimen name="margin_large">50dp</dimen>
+    <dimen name="margin_extra_large">80dp</dimen>
+    <dimen name="margin_extra_extra_large">150dp</dimen>
+
+    <!-- Imágenes -->
+    <dimen name="size_small">40dp</dimen>
+    <dimen name="size_large">80dp</dimen>
+</resources>

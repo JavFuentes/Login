@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="content_description">Logo de la app, es un ave de colores</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="password">Password</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="olvidaste_la_password">¿Olvidaste la password?</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recuperar_password">Recuperar Password</string>
+    <string name="ingresa_tu_email_para_recuperar_la_password">Ingresa tu email para recuperar la password:</string>
+</resources>
