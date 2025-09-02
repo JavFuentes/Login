@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Login</string>
     <string name="content_description">Logo de la app, es un ave de colores</string>
-    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="nombre_de_usuario">Nombre de usuario o email</string>
     <string name="password">Password</string>
     <string name="ingresar">Ingresar</string>
     <string name="olvidaste_la_password">¿Olvidaste la password?</string>
