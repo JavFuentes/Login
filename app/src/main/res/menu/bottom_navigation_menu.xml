@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicioFragment"
+        android:icon="@drawable/ic_inicio"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/casosFragment"
+        android:icon="@drawable/ic_casos"
+        android:title="Casos"/>
+
+    <item
+        android:id="@+id/camaraFragment"
+        android:icon="@drawable/ic_camara"
+        android:title="Cámara"/>
+
+    <item
+        android:id="@+id/galeriaFragment"
+        android:icon="@drawable/ic_galeria"
+        android:title="Galería"/>
+
+    <item
+        android:id="@+id/configuracionFragment"
+        android:icon="@drawable/ic_configuracion"
+        android:title="Configuración"/>
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="dev.javfuentes.login.InicioFragment"
+        android:label="Inicio"/>
+
+    <fragment
+        android:id="@+id/casosFragment"
+        android:name="dev.javfuentes.login.CasosFragment"
+        android:label="Casos"/>
+
+    <fragment
+        android:id="@+id/camaraFragment"
+        android:name="dev.javfuentes.login.CamaraFragment"
+        android:label="Cámara"/>
+
+    <fragment
+        android:id="@+id/galeriaFragment"
+        android:name="dev.javfuentes.login.GaleriaFragment"
+        android:label="Galería"/>
+
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="dev.javfuentes.login.ConfiguracionFragment"
+        android:label="Configuración"/>
+</navigation>
