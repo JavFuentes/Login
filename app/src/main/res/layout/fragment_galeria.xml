@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GaleriaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="GALERIA FRAGMENT" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GALERÍA"
+            android:textAlignment="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:src="@drawable/image20250630183315"
+            app:layout_constraintBottom_toTopOf="@id/tv_pieFoto"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_titulo" />
+
+        <TextView
+            android:id="@+id/tv_pieFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="350dp"
+            android:contentDescription="Fotografía de Zoom de los participantes del BootCamp Desarrollo de Aplicaciones Android 2025"
+            android:text="Foto BootCamp Desarrollo de Aplicaciones Android 2025"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
