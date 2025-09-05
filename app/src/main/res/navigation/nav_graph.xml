@@ -7,7 +7,20 @@
     <fragment
         android:id="@+id/inicioFragment"
         android:name="dev.javfuentes.login.InicioFragment"
-        android:label="Inicio"/>
+        android:label="Inicio">
+        <action
+            android:id="@+id/action_inicioFragment_to_bienvenidaFragment"
+            app:destination="@id/bienvenidaFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/bienvenidaFragment"
+        android:name="dev.javfuentes.login.BienvenidaFragment"
+        android:label="Bienvenida">
+        <argument
+            android:name="nombre"
+            app:argType="string"/>
+    </fragment>
 
     <fragment
         android:id="@+id/casosFragment"
