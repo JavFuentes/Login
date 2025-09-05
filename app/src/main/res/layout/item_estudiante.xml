@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    style="@style/Widget.Material3.CardView.Elevated">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <!-- Contenedor de información del configuracion -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginEnd="16dp">
+
+            <!-- Nombre del configuracion -->
+            <TextView
+                android:id="@+id/tvNombreCompleto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lautaro Alarcón"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Nombre de la app -->
+            <TextView
+                android:id="@+id/tvApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Profe Botón"
+                android:textSize="16sp" />
+
+            <!-- Fecha de inscripción -->
+            <TextView
+                android:id="@+id/tvFechaInscripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Inscrito: 01-ene"
+                android:textSize="14sp"
+                android:textColor="#81c240" />
+
+        </LinearLayout>
+
+        <!-- Logo de Android -->
+        <ImageView
+            android:id="@+id/ivAndroidLogo"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/android_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="Android Logo" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
